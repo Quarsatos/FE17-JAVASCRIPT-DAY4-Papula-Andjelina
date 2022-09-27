@@ -1,0 +1,32 @@
+body {
+  font-size: 1.2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.form label, .form input, .form select {
+  padding: 4px 0;
+}
+
+#submit {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 1.8em;
+}
+
+.display_container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+.display_container > .display {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
