@@ -1,0 +1,23 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+  justify-content: space-around;
+}
+
+img {
+  width: 150px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+.button_container > button {
+  padding: 4px 8px;
+}/*# sourceMappingURL=main.css.map */
