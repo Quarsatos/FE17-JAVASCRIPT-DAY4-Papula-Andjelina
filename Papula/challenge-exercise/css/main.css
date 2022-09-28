@@ -1,0 +1,31 @@
+.vs_board {
+  border: 1px solid pink;
+  margin: 1em 0 2em 0;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.vs_board > span {
+  padding: 0.2em 3.4em;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em 0;
+}
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+  border-radius: 10%;
+  flex-basis: 45%;
+  height: 200px;
+}
+.container > div .dice {
+  width: 40px;
+  height: 40px;
+  margin-top: 0.5em;
+}/*# sourceMappingURL=main.css.map */
